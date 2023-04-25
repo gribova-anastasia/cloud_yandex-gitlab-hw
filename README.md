@@ -18,7 +18,17 @@
 
 ## Задание 2
 Установите Zabbix Agent на два хоста.
-
+#### Процесс выполнения
+* Выполняя ДЗ сверяйтесь с процессом отражённым в записи лекции.
+* Установите Zabbix Agent на 2 виртмашины, одной из них может быть ваш Zabbix Server
+* Добавьте Zabbix Server в список разрешенных серверов ваших Zabbix Agentов
+* Добавьте Zabbix Agentов в раздел Configuration > Hosts вашего Zabbix Servera
+* Проверьте что в разделе Latest Data начали появляться данные с добавленных агентов
+#### Требования к результаты
+* Приложите в файл README.md скриншот раздела Configuration > Hosts, где видно, что агенты подключены к серверу
+* Приложите в файл README.md скриншот лога zabbix agent, где видно, что он работает с сервером
+* Приложите в файл README.md скриншот раздела Monitoring > Latest data для обоих хостов, где видны поступающие от агентов данные.
+* Приложите в файл README.md текст использованных команд в GitHub
 ![Название скриншота 1](https://github.com/gribova-anastasia/cloud_yandex-gitlab-hw/blob/d6e4cbbc8f86845e440ac5854a306da3897ce7d2/2023-04-03_110600.png)
 
 !![Название скриншота 2](https://github.com/gribova-anastasia/cloud_yandex-gitlab-hw/blob/a93383777295287d9bc140f2e1d160a3571ed1bb/11254.png)`
