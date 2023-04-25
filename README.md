@@ -39,7 +39,7 @@
 * Приложите в файл README.md скриншот лога zabbix agent, где видно, что он работает с сервером
 * Приложите в файл README.md скриншот раздела Monitoring > Latest data для обоих хостов, где видны поступающие от агентов данные.
 * Приложите в файл README.md текст использованных команд в GitHub
-![Название скриншота 1](https://github.com/gribova-anastasia/cloud_yandex-gitlab-hw/blob/d6e4cbbc8f86845e440ac5854a306da3897ce7d2/2023-04-03_110600.png)
+![Название скриншота 1](https://github.com/gribova-anastasia/zabbix-8-03/blob/c61419a59634e71516c9fda94057a341826c94f8/config-hosts.png)
 
 !![Название скриншота 2](https://github.com/gribova-anastasia/cloud_yandex-gitlab-hw/blob/a93383777295287d9bc140f2e1d160a3571ed1bb/11254.png)`
 
