@@ -12,7 +12,7 @@
 Прикрепите в файл README.md скриншот авторизации в админке
 Приложите в файл README.md текст использованных команд в GitHub
 
-![Название скриншота 1](https://github.com/gribova-anastasia/cloud_yandex-gitlab-hw/blob/d6e4cbbc8f86845e440ac5854a306da3897ce7d2/2023-04-03_110600.png)
+![Название скриншота 1](https://github.com/gribova-anastasia/zabbix-8-03/blob/b1a216638adf7d4862495479226461e59f02ea40/adminka.png)
 
 
 
