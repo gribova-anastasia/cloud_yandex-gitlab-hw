@@ -41,7 +41,8 @@
 * Приложите в файл README.md текст использованных команд в GitHub
 ![Название скриншота 1](https://github.com/gribova-anastasia/zabbix-8-03/blob/c61419a59634e71516c9fda94057a341826c94f8/config-hosts.png)
 
-!![Название скриншота 2](https://github.com/gribova-anastasia/cloud_yandex-gitlab-hw/blob/a93383777295287d9bc140f2e1d160a3571ed1bb/11254.png)`
+!![Название скриншота 2](https://github.com/gribova-anastasia/zabbix-8-03/blob/2c2e2da3ce8f292e3cf62bd1e19007ec2d10557c/log_agent.png)
+!!![Название скриншота 2](https://github.com/gribova-anastasia/zabbix-8-03/blob/2c2e2da3ce8f292e3cf62bd1e19007ec2d10557c/log_agent.png)`
 
 ###### на хостах был установлен агент:
 * wget https://repo.zabbix.com/zabbix/6.4/debian/pool/main/z/zabbix-release/zabbix-release_6.4-1+debian11_all.deb
