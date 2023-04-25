@@ -14,7 +14,17 @@
 
 ![Название скриншота 1](https://github.com/gribova-anastasia/zabbix-8-03/blob/b1a216638adf7d4862495479226461e59f02ea40/adminka.png)
 
-
+* sudo apt install postgresql
+* wget https://repo.zabbix.com/zabbix/6.4/debian/pool/main/z/zabbix-release/zabbix-release_6.4-1+debian11_all.deb
+* dpkg -i zabbix-release_6.4-1+debian11_all.deb
+* apt update
+* apt install zabbix-server-pgsql zabbix-frontend-php php7.4-pgsql zabbix-apache-conf zabbix-sql-scripts zabbix-agent
+* sudo -u postgres createuser --pwprompt zabbix
+* sudo -u postgres createdb -O zabbix zabbix
+* zcat /usr/share/zabbix-sql-scripts/postgresql/server.sql.gz | sudo -u zabbix psql zabbix
+* sudo nano /etc/zabbix/zabbix_server.conf
+* systemctl restart zabbix-server zabbix-agent apache2
+* systemctl enable zabbix-server zabbix-agent apache2
 
 ## Задание 2
 Установите Zabbix Agent на два хоста.
@@ -32,3 +42,13 @@
 ![Название скриншота 1](https://github.com/gribova-anastasia/cloud_yandex-gitlab-hw/blob/d6e4cbbc8f86845e440ac5854a306da3897ce7d2/2023-04-03_110600.png)
 
 !![Название скриншота 2](https://github.com/gribova-anastasia/cloud_yandex-gitlab-hw/blob/a93383777295287d9bc140f2e1d160a3571ed1bb/11254.png)`
+
+###### на хостах был установлен агент:
+* wget https://repo.zabbix.com/zabbix/6.4/debian/pool/main/z/zabbix-release/zabbix-release_6.4-1+debian11_all.deb
+* dpkg -i zabbix-release_6.4-1+debian11_all.deb
+* apt update
+* apt install zabbix-agent
+* systemctl restart zabbix-agent
+* systemctl enable zabbix-agent
+* sudo nano o /etc/zabbix/zabbix_agentd.conf
+* sudo systemctl restart zabbix-agent
