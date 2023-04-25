@@ -42,7 +42,7 @@
 ![Название скриншота 1](https://github.com/gribova-anastasia/zabbix-8-03/blob/c61419a59634e71516c9fda94057a341826c94f8/config-hosts.png)
 
 !![Название скриншота 2](https://github.com/gribova-anastasia/zabbix-8-03/blob/2c2e2da3ce8f292e3cf62bd1e19007ec2d10557c/log_agent.png)
-!!![Название скриншота 2](https://github.com/gribova-anastasia/zabbix-8-03/blob/2c2e2da3ce8f292e3cf62bd1e19007ec2d10557c/log_agent.png)`
+!!![Название скриншота 2](https://github.com/gribova-anastasia/zabbix-8-03/blob/4a98db00611f0f9d67c67bfc1b405dab226f225f/latest_data.png)`
 
 ###### на хостах был установлен агент:
 * wget https://repo.zabbix.com/zabbix/6.4/debian/pool/main/z/zabbix-release/zabbix-release_6.4-1+debian11_all.deb
