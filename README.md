@@ -12,7 +12,7 @@
 * Прикрепите в файл README.md скриншот страницы шаблона с названием «Задание 1»
 
 ![Название скриншота 1](https://github.com/gribova-anastasia/zabbix-8-03/blob/92d3ae20ef924f1683cbe67258b27c01caeacefc/zadanie1.png)
-![Название скриншота 2](https://github.com/gribova-anastasia/zabbix-8-03/blob/5a248627d8c80a93857bacb6364469227ff546c8/zadanie1_3.png)
+![Название скриншота 1_2](https://github.com/gribova-anastasia/zabbix-8-03/blob/5a248627d8c80a93857bacb6364469227ff546c8/zadanie1_3.png)
 
 ## Задание 2
 Добавьте в Zabbix два хоста и задайте им имена <фамилия и инициалы-1> и <фамилия и инициалы-2>. Например: ivanovii-1 и ivanovii-2.
@@ -26,7 +26,7 @@
 #### Требования к результаты
 * Результат данного задания сдавайте вместе с заданием 3
 
-!![Название скриншота 2](https://github.com/gribova-anastasia/zabbix-8-03/blob/78284d393eed22436069c4ffc108d241836b1fdd/zadanie2.png)
+! [Название скриншота 2](https://github.com/gribova-anastasia/zabbix-8-03/blob/78284d393eed22436069c4ffc108d241836b1fdd/zadanie2.png)
 
 ## Задание 3
 Привяжите созданный шаблон к двум хостам. Также привяжите к обоим хостам шаблон Linux by Zabbix Agent.
