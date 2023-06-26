@@ -41,6 +41,7 @@ curl http://localhost:8088/ping
 Приведите конфигурации настроенного Nginx сервиса и скриншот результата выполнения команды curl http://localhost:8088/ping.
 
 ![Название скриншота 3](https://github.com/gribova-anastasia/srlb-17/blob/8aa30984bbabf53a3a343a006cfb1e3fad51de01/nginx_5.png)
+
 ![Название скриншота 4](https://github.com/gribova-anastasia/srlb-17/blob/8aa30984bbabf53a3a343a006cfb1e3fad51de01/nginx_5_1.png)
 
 
