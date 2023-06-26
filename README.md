@@ -16,4 +16,32 @@
 ### Weighted Round Robin
 Тот же round robin, но имеет дополнительное свойство — вес сервера. С его помощью мы можем указать балансировщику сколько трафика отправлять на тот или иной сервер. Так сервера помощнее будут иметь больший вес и соответственно обрабатывать больше запросов чем другие сервера.
 
+## Задание 3
+Установите и запустите Haproxy.
+
+Приведите скриншот systemctl status haproxy, где будет видно, что Haproxy запущен.
+
+![Название скриншота 1](https://github.com/gribova-anastasia/srlb-17/blob/8aa30984bbabf53a3a343a006cfb1e3fad51de01/haproxy.png)
+
+## Задание 4
+Установите и запустите Nginx.
+
+Приведите скриншот systemctl status nginx, где будет видно, что Nginx запущен.
+![Название скриншота 2](https://github.com/gribova-anastasia/srlb-17/blob/8aa30984bbabf53a3a343a006cfb1e3fad51de01/nginx.png)
+
+## Задание 5
+Настройте Nginx на виртуальной машине таким образом, чтобы при запросе:
+
+curl http://localhost:8088/ping
+
+он возвращал в ответе строчку:
+
+"nginx is configured correctly".
+
+Приведите конфигурации настроенного Nginx сервиса и скриншот результата выполнения команды curl http://localhost:8088/ping.
+
+![Название скриншота 3](https://github.com/gribova-anastasia/srlb-17/blob/8aa30984bbabf53a3a343a006cfb1e3fad51de01/nginx_5.png)
+![Название скриншота 4](https://github.com/gribova-anastasia/srlb-17/blob/8aa30984bbabf53a3a343a006cfb1e3fad51de01/nginx_5_1.png)
+
+
 
