@@ -25,9 +25,16 @@
 *Приведите скриншот, на котором видно, что спустя 5 секунд ключи удалились из базы.*
 
 ---
+![Название скриншота 2](https://github.com/gribova-anastasia/srlb-17/blob/1f1040250738fdf06b23f2ec25be34cb73fe4aa9/memcached2.png)
+
 
 ### Задание 4. Запись данных в Redis
 
 Запишите в Redis несколько ключей с любыми именами и значениями. 
 
 *Через redis-cli достаньте все записанные ключи и значения из базы, приведите скриншот этой операции.*
+
+---
+![Название скриншота 3](https://github.com/gribova-anastasia/srlb-17/blob/1f1040250738fdf06b23f2ec25be34cb73fe4aa9/redis.png)
+![Название скриншота 4](https://github.com/gribova-anastasia/srlb-17/blob/1f1040250738fdf06b23f2ec25be34cb73fe4aa9/redis2.png)
+
